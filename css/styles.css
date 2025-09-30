@@ -1,0 +1,130 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        color: orange;
+        text-transform: uppercase;
+    }
+}
+
+
+.summ {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(214, 158, 5, 0.836);
+    width: 15%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(214, 158, 5, 0.836);
+}
+
+.summary {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.paragraph1,
+.paragraph2 {
+    max-width: 800px;
+    margin: 0 auto;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.paragraph2 {
+    text-align: center;
+    text-shadow: 0px 4px 10px rgba(255, 187, 2, 0.986);
+}
+
+.img1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(214, 158, 5, 0.836);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.img2,
+.img3,
+.img4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(214, 158, 5, 0.836);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.img5 {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(214, 158, 5, 0.836);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.div1 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.images {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.ingre {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.prepara {
+    margin-bottom: 25px;
+}
+
+.iframe {
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(214, 158, 5, 0.836);
+    text-align: center;
+}
+
+hr {
+    box-shadow: 0px 2px 5px rgba(214, 158, 5, 0.836);
+    max-width: 950px;
+    margin: 25px auto;
+
+}
